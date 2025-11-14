@@ -1,0 +1,27 @@
+{
+  "name": "crypto-stock-tracker-client",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "firebase": "^11.2.0",
+    "lucide-react": "^0.553.0",
+    "plotly.js": "^3.2.0",
+    "plotly.js-dist-min": "^2.34.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-plotly.js": "^2.6.0",
+    "three": "^0.181.1",
+    "zustand": "^4.5.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.9"
+  }
+}
