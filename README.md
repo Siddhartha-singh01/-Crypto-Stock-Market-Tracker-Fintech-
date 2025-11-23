@@ -9,7 +9,7 @@ Built for developers, finance enthusiasts, and learners who want to explore mark
 Live cryptocurrency prices from CoinGecko API
 
 Real-time stock data using Alpha Vantage API
-
+   
 Price updates auto-refresh every few seconds
 
 📊 Interactive Charts & Analytics
