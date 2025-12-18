@@ -12,7 +12,7 @@ export default function Ticker() {
         const rows = Object.entries(data).map(([k, v]) => ({ k, p: v.usd, ch: v.usd_24h_change }))
         if (mounted) setItems(rows)
       } catch {}
-    }
+    }                                                                                       
     load()
     const id = setInterval(load, 10000)
     return () => { mounted = false; clearInterval(id) }
