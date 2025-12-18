@@ -10,7 +10,7 @@ import Ticker from './components/Ticker.jsx'
 import TopNav from './components/TopNav.jsx'
 import { usePortfolioStore } from './store/portfolioStore.js'
 import { signInWithGoogle, signOutUser, useAuth } from './services/firebase.js'
-import './index.css'
+import './index.css'                               
 import SentimentDashboard from './components/SentimentDashboard.jsx'
 
 function MovingAverage({ series, windowSize }) {
