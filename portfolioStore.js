@@ -42,7 +42,7 @@ export const usePortfolioStore = create((set, get) => ({
   },
   loadUserPortfolio: async () => {
     if (!auth.currentUser) return
-    const data = await loadPortfolio(auth.currentUser.uid)
+    const data = await loadPortfolio(auth.currentUser.uid)       
     set({ positions: data.positions || [] })
     await get().refreshValue()
   }
