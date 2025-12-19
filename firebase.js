@@ -14,7 +14,7 @@ const firebaseConfig = {
 
 const enabled = Boolean(firebaseConfig.apiKey && firebaseConfig.projectId)
 let app
-let authInst
+let authInst     
 let dbInst
 if (enabled) {
   app = initializeApp(firebaseConfig)
