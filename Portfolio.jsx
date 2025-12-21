@@ -9,7 +9,7 @@ export default function Portfolio({ positions, value, onAdd, onRemove }) {
         <select value={form.type} onChange={e => setForm({ ...form, type: e.target.value })}>
           <option value="stock">Stock</option>
           <option value="crypto">Crypto</option>
-        </select>
+        </select>                           
         <input placeholder={form.type === 'stock' ? 'AAPL' : 'bitcoin'} value={form.symbol} onChange={e => setForm({ ...form, symbol: e.target.value })} />
         <input type="number" placeholder="Qty" value={form.qty} onChange={e => setForm({ ...form, qty: Number(e.target.value) })} />
         <button onClick={() => onAdd(form)} className="flex" style={{ alignItems: 'center', gap: 6, height: 40 }}>
