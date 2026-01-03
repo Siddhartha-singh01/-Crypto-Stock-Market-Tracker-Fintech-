@@ -11,7 +11,7 @@ export default function Login({ onSuccess }) {
   const submit = async () => {
     if (!firebaseEnabled) return
     setLoading(true)
-    setError('')
+    setError('')                                                                                            
     try {
       if (mode === 'signup') await signUpWithEmail(email, password)
       else await signInWithEmail(email, password)
