@@ -33,7 +33,7 @@ export default function Login({ onSuccess }) {
     } catch (e) {
       setError('Authentication failed')
     } finally {
-      setLoading(false)
+      setLoading(false)                                                         
     }
   }
 
