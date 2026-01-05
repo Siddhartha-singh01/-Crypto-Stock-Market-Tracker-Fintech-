@@ -14,7 +14,7 @@ export default function Sidebar({ active, setActive }) {
       <button                                                         
         className="menu-toggle"
         onClick={() => setOpen(o => !o)}
-        aria-label="Toggle menu"
+        aria-label="Toggle menu"                      
       >
         {open ? <X size={24} /> : <Menu size={24} />}
       </button>
