@@ -6,7 +6,7 @@ export default function Ticker() {
   useEffect(() => {
     let mounted = true
     const ids = 'bitcoin,ethereum,solana'
-    const load = async () => {
+    const load = async () => {             
       try {
         const data = await getCryptoPrices(ids, 'usd')
         const rows = Object.entries(data).map(([k, v]) => ({ k, p: v.usd, ch: v.usd_24h_change }))
