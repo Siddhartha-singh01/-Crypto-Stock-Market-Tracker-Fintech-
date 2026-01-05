@@ -8,7 +8,7 @@ const api = axios.create({
 export async function getCryptoPrices(ids, vsCurrency = 'usd') {
   const { data } = await api.get('/crypto/prices', { params: { ids, vs_currency: vsCurrency } })
   return data
-}
+}                                                                                                                                                                   
 
 export async function getCryptoMarketChart(id, vsCurrency = 'usd', days = 1) {
   const { data } = await api.get('/crypto/market_chart', { params: { id, vs_currency: vsCurrency, days } })
