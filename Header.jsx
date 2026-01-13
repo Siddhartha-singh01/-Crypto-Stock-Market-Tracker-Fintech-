@@ -20,4 +20,4 @@ export default function Header({ user, onSignIn, onSignOut, dark, toggle }) {
       </div>
     </header>
   )
-}
+} 
