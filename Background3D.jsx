@@ -11,7 +11,7 @@ export default function Background3D() {
     const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true })
     renderer.setSize(window.innerWidth, window.innerHeight)
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
-    mount.appendChild(renderer.domElement)
+    mount.appendChild(renderer.domElement)                                    
 
     const geometry = new THREE.TorusKnotGeometry(12, 3, 200, 32)
     const material = new THREE.MeshPhongMaterial({ color: new THREE.Color(getComputedStyle(document.documentElement).getPropertyValue('--accent')), wireframe: true })
