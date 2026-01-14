@@ -9,7 +9,7 @@ export default function Chart({ title, series }) {
         autosize: true,
         margin: { t: 40, r: 10, b: 40, l: 40 },
         paper_bgcolor: 'transparent',
-        plot_bgcolor: 'transparent',
+        plot_bgcolor: 'transparent',                                            
         font: { color: 'var(--text)' },
         xaxis: { gridcolor: 'var(--border)', zerolinecolor: 'var(--border)' },
         yaxis: { gridcolor: 'var(--border)', zerolinecolor: 'var(--border)' }
